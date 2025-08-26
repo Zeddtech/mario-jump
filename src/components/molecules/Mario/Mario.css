@@ -6,17 +6,36 @@
     left: 40px;
 }
 
+
 .jump {
-    animation-name: jumping;
+    animation: jumping .8s ;
     animation-timing-function: ease-out;
-    animation-duration: 0.4s;
 }
 
 @keyframes jumping {
     0% {
-        transform: translateY(-15vh);
+        transform: translateY(-10px);
+        
     }
-}
+    20% {
+        transform: translateY(-80px);
+        
+    }
+    40% {
+        transform: translateY(-80px);
+        
+       
+    }
+    60% {
+        transform: translateY(-10px);
+        
+    }
+   
+    100% {
+        transform: translateY(0);
+    }
+
+} 
 
 /* Mario Die */
 .die {
@@ -55,5 +74,11 @@
         width: 2rem;
         left: 20px;
         bottom: 60px;
+    }
+}
+@media (min-width: 1280px){
+    .mario {
+        width: 3rem;
+        bottom: 120px;
     }
 }

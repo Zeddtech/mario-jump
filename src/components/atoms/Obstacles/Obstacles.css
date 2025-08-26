@@ -30,7 +30,7 @@
 
 .obstacle2-move {
     animation-name: obstacle2-animation;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
