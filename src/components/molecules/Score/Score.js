@@ -14,7 +14,7 @@ const Score = () => {
     if (play && !die) {
       setTimeout(() => {
         dispatch(setScore(score + 1));
-      }, 100);
+      }, 300);
     }
     if (score && !play) {
       dispatch(setLastScore(score));

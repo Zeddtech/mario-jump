@@ -28,7 +28,7 @@ const MobileControls = () => {
         dispatch(marioJumping(false));
         jump.pause();
         jump.currentTime = 0;
-      }, 400);
+      }, 800);
     }
   };
   return (
