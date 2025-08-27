@@ -22,7 +22,7 @@
         
     }
     40% {
-        transform: translateY(-80px);
+        transform: translateY(-90px);
         
        
     }
@@ -71,14 +71,14 @@
 
 @media (max-width: 640px) {
     .mario {
-        width: 2rem;
+        width: 3rem;
         left: 20px;
         bottom: 60px;
     }
 }
 @media (min-width: 1280px){
     .mario {
-        width: 3rem;
+        width: 4rem;
         bottom: 120px;
     }
 }

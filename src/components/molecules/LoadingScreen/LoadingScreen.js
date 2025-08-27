@@ -16,6 +16,7 @@ const LoadingScreen = () => {
 
   return (
     <div className="loading-screen-container">
+      <h1 className="title">monad Jump</h1>
       <img src={MarioCharacter} alt="" className="loading-mario" />
       {!isReady && <h1 className="loading-title">Loading...</h1>}
       {isReady && (

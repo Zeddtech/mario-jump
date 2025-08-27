@@ -1,5 +1,7 @@
 import "./Mario.css";
 import MarioCharacter from "../../../assets/img/gif/mario-run.gif";
+import stickman from "../../../assets/img/gif/monad-run.gif"
+import stickman2 from "../../../assets/img/gif/monad-run2.gif"
 import { useEffect, useRef, useCallback, useMemo } from "react";
 import jumpAudio from "../../../assets/audio/mario-jump.mp3";
 import backgroundMusic from "../../../assets/audio/running-about.mp3";
@@ -107,7 +109,7 @@ const Mario = () => {
       marioDie.play();
       dispatch(setReady(false));
       setTimeout(() => { dispatch(setDie(false)); }, 2000);
-      setTimeout(() => { dispatch(setScore(0)); }, 300);
+      setTimeout(() => { dispatch(setScore(0)); }, 100);
     }
   }, [
     mario_left, mario_width, mario_top, mario_height,
@@ -147,7 +149,7 @@ const Mario = () => {
     <div className="mario-container">
       {!die && (
         <img
-          src={MarioCharacter}
+          src={stickman2}
           alt=""
           className={`mario ${mario_jump ? "jump" : ""}`}
           ref={marioRef}
@@ -155,7 +157,7 @@ const Mario = () => {
       )}
       {die && (
         <img
-          src={MarioCharacter}
+          src={stickman2}
           alt=""
           className={`mario ${die ? "die" : ""}`}
           ref={marioRef}

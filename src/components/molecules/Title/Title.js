@@ -7,7 +7,7 @@ const Title = () => {
   return (
     <div className="title-container">
         <img src={Mario} alt="" className="mario-logo"/>
-        <h1 className="title">Mario Jump</h1>
+        <h1 className="title">Monad Jump</h1>
     </div>
   )
 }

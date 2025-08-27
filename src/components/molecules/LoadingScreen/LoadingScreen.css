@@ -6,7 +6,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #2D2D2D;
+    background-color: #0E100F;
     color: #EEE;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@
     font-size: 2rem;
     text-align: center;
     padding: 0.5rem 2rem;
-    background-color: #FBD000;
+    background-color: #836EF9;
     color: #2D2D2D;
     border-radius: 0.2rem;
     border: none;
