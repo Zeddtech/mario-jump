@@ -1,6 +1,6 @@
 import "./Mario.css";
-import MarioCharacter from "../../../assets/img/gif/mario-run.gif";
-import stickman from "../../../assets/img/gif/monad-run.gif"
+// import MarioCharacter from "../../../assets/img/gif/mario-run.gif";
+// import stickman from "../../../assets/img/gif/monad-run.gif"
 import stickman2 from "../../../assets/img/gif/monad-run2.gif"
 import { useEffect, useRef, useCallback, useMemo } from "react";
 import jumpAudio from "../../../assets/audio/mario-jump.mp3";
